@@ -1,0 +1,39 @@
+: Implementa un sistema per gestire un carrello di un e-commerce. Questo sistema deve permettere di aggiungere e rimuovere prodotti dal carrello, calcolare il totale degli articoli presenti, applicare sconti e gestire l'inventario. Il programma deve usare una struttura che includa una lista di prodotti, interfacce per definire i comportamenti comuni, un enum per gestire le categorie dei prodotti, e un singleton per la gestione dell’inventario.Requisiti::
+
+    Crea una classe Prodotto con i seguenti attributi:
+    String nome
+    double prezzo
+    Categoria categoria (usando un enum, vedi punto 3)
+
+Implementa i metodi getNome(), getPrezzo(), getCategoria().Aggiungi un metodo toString() per stampare i dettagli del prodotto.:
+
+    Definisci un enum Categoria con alcune categorie di prodotti, ad esempio ELETTRONICA, ABBIGLIAMENTO, ALIMENTARI, LIBRI.
+
+:
+
+    Crea un’interfaccia Scontabile che definisca un metodo applicaSconto(double percentuale). Questo metodo permette di applicare uno sconto percentuale al prezzo del prodotto.
+    La classe Prodotto deve implementare questa interfaccia.
+
+:
+
+    Crea una classe Carrello con i seguenti attributi e metodi:
+    Un attributo List<Prodotto> prodotti per memorizzare i prodotti nel carrello.
+    void aggiungiProdotto(Prodotto prodotto): per aggiungere un prodotto al carrello.
+    void rimuoviProdotto(Prodotto prodotto): per rimuovere un prodotto dal carrello.
+    double calcolaTotale(): per calcolare il totale del carrello.
+    List<Prodotto> getProdotti(): per ottenere la lista dei prodotti nel carrello.
+
+Implementa un metodo toString() per stampare i dettagli del carrello (prodotti e totale).:
+
+    Crea una classe Inventario che rappresenti l'inventario dei prodotti. Utilizza il pattern singleton per questa classe, in modo che ci sia un'unica istanza di inventario.
+    La classe Inventario deve avere:
+    Un attributo List<Prodotto> prodottiDisponibili che contiene i prodotti disponibili nell'inventario.
+    Un metodo void aggiungiProdotto(Prodotto prodotto): per aggiungere un prodotto all'inventario.
+    Un metodo List<Prodotto> cercaProdottiPerCategoria(Categoria categoria): per ottenere tutti i prodotti di una data categoria.
+    Un metodo void mostraInventario(): per stampare i prodotti disponibili.
+
+:
+
+    Crea una classe Main/App.java per testare il funzionamento del sistema.
+    Nel metodo main, crea un inventario con alcuni prodotti.
+    Aggiungi alcuni prodotti a un carrello, applica uno sconto ad alcuni prodotti e calcola il totale del carrello.
