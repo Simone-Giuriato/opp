@@ -1,0 +1,4 @@
+Ford,Focus,2018,15000
+Toyota,Corolla,2020,18000
+BMW,320i,2019,25000
+Audi,A4,2021,35000
