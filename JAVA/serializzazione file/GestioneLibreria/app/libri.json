@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titolo": "Il nome della rosa", 
+        "autore": "Umberto Eco",
+        "tipo": "NARRATIVA"
+    },
+    {
+        "id": 2,
+        "titolo": "Breve storia del tempo", 
+        "autore": "Stephen Hawking",
+        "tipo": "SCIENZA"
+    },
+    {
+        "id": 3,
+        "titolo": "1984", 
+        "autore": "George Orwell",
+        "tipo": "NARRATIVA"
+    }
+]
