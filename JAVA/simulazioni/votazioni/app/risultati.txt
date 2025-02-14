@@ -1,0 +1,20 @@
+{
+  "1" : {
+    "nome" : "Mario Rossi",
+    "ruolo" : "SINDACO",
+    "voti" : 3,
+    "id" : 1
+  },
+  "2" : {
+    "nome" : "Luigi Bianchi",
+    "ruolo" : "CONSIGLIERE",
+    "voti" : 1,
+    "id" : 2
+  },
+  "3" : {
+    "nome" : "Anna Verdi",
+    "ruolo" : "ASSESSORE",
+    "voti" : 1,
+    "id" : 3
+  }
+}
